@@ -1,0 +1,340 @@
+.logo {
+	position:relative;
+	width: 15vw;
+	height: 12vw;
+	left:80vw;
+}
+@font-face {
+	font-family: 'Roboto';
+	src:url("/police/Webfont/RoxboroughCF-Light.woff2") format("woff2")
+}
+
+body {
+  background-color: #d8be9d;
+}
+.page-accueil h1 {
+	font-family: 'Spectral', serif;
+	position:absolute;
+	top:3vw;
+	left:4vw;
+	color:#efe7dd;
+	font-size:4vw;
+}
+.page-accueil table {
+  border-collapse: separate;
+  border-spacing: 1vw;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.page-accueil td {
+  padding: 2vw; /* Augmenter la hauteur des cellules */
+  text-align: left;
+  border: 1px solid transparent;
+  background-color: #efe7dd; /* Fond blanc */
+  border-radius: 10px; /* Coins arrondis */
+  text-align:center;
+}
+
+.page-accueil th {
+	padding: 1vw;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #ae9676; /* Fond blanc */
+  border-radius: 10px; /* Coins arrondis */
+  text-align:center;
+}
+
+/* Styles pour le bouton ovale */
+.page-footer {
+	text-align: center;
+    position: relative;
+    margin-top: 10vw;
+}
+
+
+.button-container {
+  margin: 20px auto; /* Marge pour centrer le bouton */
+}
+
+
+.oval-button {
+  display: inline-block;
+  padding: 15px 50px; /* Ajustez la taille du bouton en fonction de vos besoins */
+  background-color: #ae9676; /* Couleur de fond du bouton */
+  color: black; /* Couleur du texte */
+  border: none;
+  border-radius: 50%; /* Bordure arrondie pour créer la forme ovale */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Animation de transition de couleur de fond */
+}
+
+.oval-button:hover {
+  color: #efe7dd; /* Couleur de fond au survol */
+}
+.page-article {
+	display:flex;
+	flex-direction : row;
+	width: 100%;
+	height: 20vw;
+
+	
+}
+.page-article div {
+	position:relative;
+	width: 50%;
+	height: 20vw;
+	
+}
+
+#name-article{
+	font-family: 'Spectral', serif;
+	position:absolute;
+	top:3vw;
+	left:4vw;
+	color:#ae9676;
+	font-size:4vw;
+	text-shadow: #867051 2px 2px, #867051 -2px 2px, #867051 -2px -2px, #867051 2px -2px;
+}
+#picture-article{
+	display:block;
+	margin:auto;
+	width: 18vw;
+	height: 18vw;
+	border: 5px solid #867051;
+}
+.page-article table {
+  border-collapse: separate;
+  border-spacing: 1vw;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.page-article td {
+
+  padding: 2vw; /* Augmenter la hauteur des cellules */
+  text-align: left;
+  border: 1px solid transparent;
+  background-color: #efe7dd; /* Fond blanc */
+  border-radius: 10px; /* Coins arrondis */
+  text-align:center;
+}
+
+.page-article th {
+	padding: 1vw;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #ae9676; /* Fond blanc */
+  border-radius: 10px; /* Coins arrondis */
+  text-align:center;
+}
+.page-article ul{
+		font-family: 'Spectral', serif;
+	color:#efe7dd;
+	text-shadow: #ae9676 2px 2px, #ae9676 -2px 2px, #ae9676 -2px -2px, #ae9676 2px -2px;
+	list-style: none;
+	text-align: center;
+	font-size:1.5vw;
+}
+
+.page-contact {
+	margin-top:10vw;
+	display:flex;
+	flex-direction : row;
+	width: 100%;
+	height: 100%;
+	
+}
+.page-contact div {
+	position:relative;
+	width: 50%;
+	height: 100%;
+
+	
+}
+.page-contact p {
+	margin-top:10vw;
+	font-family: 'Spectral', serif;
+	text-align:center;
+	margin-bottom :10vw;
+	
+}
+#name-contact{
+	
+	font-family: 'Spectral', serif;
+	position:absolute;
+	top:3vw;
+	left:11vw;
+	color:black;
+	font-size:4vw;
+}
+#picture-contact{
+	display:block;
+	margin:auto;
+	width: 18vw;
+	height: 37vw;
+}
+.page-nouveau h1 {
+	font-family: 'Spectral', serif;
+	position:absolute;
+	top:3vw;
+	left:35vw;
+	color:#efe7dd;
+	font-size:4vw;
+}
+.container {
+	position: relative;
+	display: flex;
+    justify-content: center; /* Centre horizontalement */
+
+}
+
+
+.validation {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+#message{
+	display: none;
+}
+
+
+#iframeContainer {
+	display: none;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 400px; /* Largeur de l'iframe */
+	height: 500px; /* Hauteur de l'iframe */
+	border: 1px solid #ccc;
+	z-index: 9998;
+}
+#iframeContainer iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+#icon_chat{
+	display: block;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 50px; /* Largeur de l'iframe */
+	height: 50px; /* Hauteur de l'iframe */
+}
+
+#icon_close{
+	display: none;
+	position: fixed;
+	right: 5px;
+	bottom: 470px;
+	width: 30px; /* Largeur de l'iframe */
+	height: 30px; /* Hauteur de l'iframe */
+	z-index: 9999;
+}
+
+
+	
+
+.chat_body {
+    font-family: 'Spectral', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.chat_titre {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 60px); /* Hauteur moins celle de l'en-tête */
+    overflow: hidden;
+}
+
+.messages {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow-y: auto;
+    max-height: calc(60% - 40px); /* 60% de la hauteur de la fenêtre */
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+	position: relative;
+    margin-bottom: 10px;
+	top: 5px;
+}
+
+.message .content {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 5px;
+    position: relative;
+    max-width: 60%;
+
+}
+
+
+
+.message .date {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.user-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.user-inputs input[type="text"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.user-inputs button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-inputs button:hover {
+    background-color: #555;
+}
